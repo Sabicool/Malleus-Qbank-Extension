@@ -6,7 +6,7 @@ chrome.action.onClicked.addListener((tab) => {
 });
 
 function extractAndSearchTag() {
-  // Locate the element with the text "Item #2492"
+  // Locate the element with the text "Item #____"
   let tagElement = document.querySelector("div.px-sm.py-xs.color-muted.text-xs");
   let itemNumber = tagElement ? tagElement.textContent.match(/\d+/)[0] : null;
 
