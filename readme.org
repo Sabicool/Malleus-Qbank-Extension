@@ -1,0 +1,26 @@
+#+TITLE: Readme
+
+This is an extension made for chromium based browsers for the Malleus Clinical Medicine Project. Please read more about the project [[https://malleuscm.notion.site/Malleus-Clinical-Medicine-Anki-Project-AU-NZ-97b71e792df64006a2016e1f1c5548b0?pvs=74][here]]. 
+
+* Installation
+Unfortunately the extension is not on the chrome web store. To use this extension please use the following steps:
+
+1. Click the code button then the download as zip button
+2. Unzip the downloaded files
+3. Go to [[chrome://extensions/][chrome://extensions/]]
+4. Turn on developer mode at the top right
+5. Click load unpacked extension at the top left
+6. Navigate to the unzipped folder in step 2 named "Malleus-Qbank-Extension"
+
+You will also need the [[https://ankiweb.net/shared/info/2055492159][ankiconnect extension]]. 
+
+* Usage
+When doing questions on eMedici, simply press the Anki tag search extension button in the tool bar.
+
+* Todos
+- [ ] Publish on chrome web store
+- [ ] Add support for other question banks:
+  - [ ] Passmedicine
+  - [ ] Elsevier
+  - [ ] Amboss
+  - [ ] AMSA Med Ed
