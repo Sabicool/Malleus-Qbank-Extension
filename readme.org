@@ -10,7 +10,7 @@ Easily search the Malleus Clinical Medicine deck for flashcards related to the c
 * Installation
 Unfortunately the extension is not on the chrome web store /yet/. To use this extension please use the following steps:
 
-1. Download the latest release [[https://github.com/Sabicool/Malleus-Qbank-Extension/releases/latest/download/malleus-extension.zip][here]] or go to the releases page (see on the right side) and download the latest release file (should be named "malleus-extension.zip")
+1. Download the latest release [[https://github.com/Sabicool/Malleus-Qbank-Extension/releases/latest/download/malleus-extension.zip][here]] or go to the [[https://github.com/Sabicool/Malleus-Qbank-Extension/releases][releases page]] and download the latest release file (should be the file named "malleus-extension.zip")
 2. Go to [[chrome://extensions/][chrome://extensions/]]
 3. Turn on developer mode at the top right
 4. Drag and drop the malleus-extension.zip file onto the chrome window (should say "drop to install")
