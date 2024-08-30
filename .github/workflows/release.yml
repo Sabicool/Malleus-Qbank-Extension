@@ -7,10 +7,7 @@ on:
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 permissions:
-  contents: write  # Required to create releases
-  deployments: write  # Required for some deployment-related actions, if needed
-  issues: read  # Optional, depending on actions used in your workflow
-  pull-requests: read  # Optional, depending on actions used in your workflow
+  contents: write  # Required to create releases and upload assets
 
 jobs:
   build:
@@ -23,7 +20,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  # Explicitly use Node.js 20
+          node-version: '20'
 
       - name: Install dependencies
         run: npm install -g crx
@@ -39,7 +36,7 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the default GitHub Actions token
         with:
           tag_name: ${{ github.ref_name }}
           release_name: "Release ${{ github.ref_name }}"
