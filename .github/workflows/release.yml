@@ -25,7 +25,7 @@ jobs:
       - name: Generate .crx file
         run: |
           echo "${{ secrets.EXTENSION_PRIVATE_KEY }}" > extension-key.pem
-          crx pack ./ --key=extension-key.pem --out=dist/extension.crx
+          crx pack ./ -p extension-key.pem -o dist/extension.crx
 
       - name: Create Release
         id: create_release
