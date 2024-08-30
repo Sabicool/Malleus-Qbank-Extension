@@ -2,6 +2,11 @@
 
 This is an extension made for chromium based browsers for the Malleus Clinical Medicine Project. Please read more about the project [[https://malleuscm.notion.site/Malleus-Clinical-Medicine-Anki-Project-AU-NZ-97b71e792df64006a2016e1f1c5548b0?pvs=74][here]]. 
 
+* Showcase
+Easily search the Malleus Clinical Medicine deck for flashcards related to the currently open question in your qBank
+
+[[./resources/showcase.gif]]
+
 * Installation
 Unfortunately the extension is not on the chrome web store /yet/. To use this extension please use the following steps:
 
