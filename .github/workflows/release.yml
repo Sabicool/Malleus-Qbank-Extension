@@ -54,5 +54,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./dist/malleus-extension.zip
-          asset_name: extension.zip
+          asset_name: malleus-extension.zip
           asset_content_type: application/x-chrome-extension

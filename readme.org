@@ -5,12 +5,12 @@ This is an extension made for chromium based browsers for the Malleus Clinical M
 * Installation
 Unfortunately the extension is not on the chrome web store /yet/. To use this extension please use the following steps:
 
-1. Click the code button then the download as zip button
-2. Unzip the downloaded files
+1. Go to the releases page (see on the right side)
+2. Download the latest release file (should be named "malleus-extension.zip")
 3. Go to [[chrome://extensions/][chrome://extensions/]]
 4. Turn on developer mode at the top right
-5. Click load unpacked extension at the top left
-6. Navigate to the unzipped folder in step 2 named "Malleus-Qbank-Extension"
+5. Drag and drop the malleus-extension.zip file onto the chrome window (should say "drop to install")
+6. Pin the extension to your toolbar
 
 You will also need the [[https://ankiweb.net/shared/info/2055492159][ankiconnect extension]]. 
 
