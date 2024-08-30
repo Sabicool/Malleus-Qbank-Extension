@@ -6,13 +6,13 @@ on:
       - 'v*'  # This triggers the workflow when you push a tag like v1.0.0
   workflow_dispatch:  # Allows manual triggering of the workflow
 
-permissions:
-  contents: write
-  actions: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: write
 
     steps:
       - name: Checkout code
