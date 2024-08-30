@@ -24,8 +24,8 @@ jobs:
 
       - name: Generate .crx file
         run: |
-          echo "${{ secrets.EXTENSION_PRIVATE_KEY }}" > extension-key.pem
           mkdir -p dist
+          echo "${{ secrets.EXTENSION_PRIVATE_KEY }}" > extension-key.pem
           crx pack ./ -p extension-key.pem -o dist/extension.crx
           ls -al dist  # Debugging: List contents of dist directory
 
