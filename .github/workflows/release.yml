@@ -49,4 +49,4 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./dist/extension.crx
           asset_name: extension.crx
-          asset_content_type: application/x-chrome-extensionn
+          asset_content_type: application/x-chrome-extension
