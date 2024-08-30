@@ -1,15 +1,26 @@
 {
-  "manifest_version": 3,
-  "name": "Anki Tag Search",
-  "version": "1.0",
-  "permissions": [
-    "activeTab",
-    "scripting"
-  ],
-  "action": {
-    "default_title": "Search Tag in Anki"
-  },
-  "background": {
-    "service_worker": "background.js"
-  }
+    "manifest_version": 3,
+    "name": "Malleus QBank Search",
+    "version": "1.0",
+    "description": "Easily find cards within the Malleus Clinical Medicine Deck that are related to the currently open question in your subscribed question bank.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        },
+        "default_title": "Search Malleus deck in Anki for related cards from QBank"
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
 }
