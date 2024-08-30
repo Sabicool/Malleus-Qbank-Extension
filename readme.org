@@ -18,7 +18,7 @@ You will also need the [[https://ankiweb.net/shared/info/2055492159][ankiconnect
 When doing questions on eMedici, simply press the Anki tag search extension button in the tool bar.
 
 * Todos
-- [ ] Make releases workflow
+- [X] Make releases workflow
 - [ ] Publish on chrome web store
 - [ ] Add support for other question banks:
   - [ ] Passmedicine
