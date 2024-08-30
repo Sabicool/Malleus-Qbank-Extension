@@ -6,10 +6,6 @@ on:
       - 'v*'  # This triggers the workflow when you push a tag like v1.0.0
   workflow_dispatch:  # Allows manual triggering of the workflow
 
-permissions:
-  contents: write  # Required to create releases and upload assets
-  actions: read    # If needed for any action-related tasks
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,7 +17,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '20'  # Explicitly use Node.js 20
 
       - name: Install dependencies
         run: npm install -g crx
@@ -37,7 +33,7 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the default GitHub Actions token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref_name }}
           release_name: "Release ${{ github.ref_name }}"
