@@ -32,6 +32,10 @@ jobs:
           crx pack ./ -p extension-key.pem -o dist/extension.crx
           ls -al dist  # Debugging: List contents of dist directory
 
+      - name: Convert to .zip file
+        run: |
+          mv dist/extension.crx dist/malleus-extension.zip
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -49,6 +53,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./dist/extension.crx
-          asset_name: extension.crx
+          asset_path: ./dist/malleus-extension.zip
+          asset_name: extension.zip
           asset_content_type: application/x-chrome-extension
