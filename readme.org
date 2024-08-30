@@ -10,12 +10,11 @@ Easily search the Malleus Clinical Medicine deck for flashcards related to the c
 * Installation
 Unfortunately the extension is not on the chrome web store /yet/. To use this extension please use the following steps:
 
-1. Go to the releases page (see on the right side)
-2. Download the latest release file (should be named "malleus-extension.zip")
-3. Go to [[chrome://extensions/][chrome://extensions/]]
-4. Turn on developer mode at the top right
-5. Drag and drop the malleus-extension.zip file onto the chrome window (should say "drop to install")
-6. Pin the extension to your toolbar
+1. Download the latest release [[https://github.com/Sabicool/Malleus-Qbank-Extension/releases/latest/download/asset-name.zip][here]] or go to the releases page (see on the right side) and download the latest release file (should be named "malleus-extension.zip")
+2. Go to [[chrome://extensions/][chrome://extensions/]]
+3. Turn on developer mode at the top right
+4. Drag and drop the malleus-extension.zip file onto the chrome window (should say "drop to install")
+5. Pin the extension to your toolbar
 
 You will also need the [[https://ankiweb.net/shared/info/2055492159][ankiconnect extension]]. 
 
