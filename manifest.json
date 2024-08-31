@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Malleus QBank Search",
     "version": "1.0.8",
-    "description": "Easily find cards within the Malleus Clinical Medicine Deck that are related to the currently open question in your subscribed question bank.",
+    "description": "Easily find cards within the Malleus Clinical Medicine Deck that are related to the currently open question in a question bank.",
     "permissions": [
         "activeTab",
         "scripting"
