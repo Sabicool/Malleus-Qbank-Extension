@@ -22,18 +22,20 @@ You will also need the [[https://ankiweb.net/shared/info/2055492159][ankiconnect
 When doing questions on eMedici, simply press the Anki tag search extension button in the tool bar.
 
 * Directions for the future
-Sharing and publishing
-- [X] Make releases workflow
-- [ ] Publish on chrome web store
+#+begin_src org
+  Sharing and publishing
+  - [X] Make releases workflow
+  - [-] Publish on chrome web store
 
-I want to enable further integration with emedici:
-- [ ] Add support for just from share urls (e.g. [[https://emedici.com/app/share/question/2472][https://emedici.com/app/share/question/2472]])
-- [ ] Add support for cases
-- [ ] Add support for OSCE stations
+  I want to enable further integration with emedici:
+  - [ ] Add support for just from share urls (e.g. [[https://emedici.com/app/share/question/2472][https://emedici.com/app/share/question/2472]])
+  - [ ] Add support for cases
+  - [ ] Add support for OSCE stations
 
-Add support for other qbanks
-- [ ] Passmedicine
-- [ ] Elsevier
-- [ ] Amboss
-- [ ] AMSA Med Ed
+  Add support for other qbanks
+  - [ ] Passmedicine
+  - [ ] Elsevier
+  - [ ] Amboss
+  - [ ] AMSA Med Ed
+#+end_src
 
