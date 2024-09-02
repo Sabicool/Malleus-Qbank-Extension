@@ -31,7 +31,7 @@ When doing questions on eMedici, simply press the Anki tag search extension butt
   - [X] Publish on chrome web store
 
   Quality of life improvements
-  - [ ] Extension checks if the Anki server is running; if not suggest to the user to download anki-connect or start anki
+  - [X] Extension checks if the Anki server is running; if not suggest to the user to download anki-connect or start anki
 
   I want to enable further integration with emedici:
   - [X] Add support for just from share urls (e.g. [[https://emedici.com/app/share/question/2472][https://emedici.com/app/share/question/2472]])
