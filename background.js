@@ -6,9 +6,18 @@ chrome.action.onClicked.addListener((tab) => {
 });
 
 function extractAndSearchTag() {
-  // Locate the element with the text "Item #____"
-  let tagElement = document.querySelector("div.px-sm.py-xs.color-muted.text-xs");
-  let itemNumber = tagElement ? tagElement.textContent.match(/\d+/)[0] : null;
+  const url = window.location.href;
+  let itemNumber;
+
+  // Check if the URL matches the first pattern: https://emedici.com/app/share/question/####
+  const matchShareQuestion = url.match(/https:\/\/emedici.com\/app\/share\/question\/(\d+)/);
+  if (matchShareQuestion) {
+    itemNumber = matchShareQuestion[1];
+  } else {
+    // Otherwise, locate the element with the text "Item #____" as previously implemented
+    let tagElement = document.querySelector("div.px-sm.py-xs.color-muted.text-xs");
+    itemNumber = tagElement ? tagElement.textContent.match(/\d+/)[0] : null;
+  }
 
   if (itemNumber) {
     // Calculate the range for the itemNumber
