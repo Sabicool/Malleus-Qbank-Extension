@@ -8,8 +8,12 @@ Easily search the Malleus Clinical Medicine deck for flashcards related to the c
 [[./resources/showcase.gif]]
 
 * Installation
-Unfortunately the extension is not on the chrome web store /yet/. To use this extension please use the following steps:
++Unfortunately the extension is not on the chrome web store /yet/.+ 
 
+The extension is now on the [[https://chromewebstore.google.com/detail/malleus-qbank-search/ckihgpchidmfkbnodeeccpogbkcfgpmh?hl=en&authuser=0][chrome web store]]. Please download the extention and then also download the [[https://ankiweb.net/shared/info/2055492159][anki-connect extension]].
+
+** Manual Installation
+To download the latest release of the extension please follow the following steps
 1. Download the latest release [[https://github.com/Sabicool/Malleus-Qbank-Extension/releases/latest/download/malleus-extension.zip][here]] or go to the [[https://github.com/Sabicool/Malleus-Qbank-Extension/releases][releases page]] and download the latest release file (should be the file named "malleus-extension.zip")
 2. Go to [[chrome://extensions/][chrome://extensions/]]
 3. Turn on developer mode at the top right
@@ -19,13 +23,15 @@ Unfortunately the extension is not on the chrome web store /yet/. To use this ex
 You will also need the [[https://ankiweb.net/shared/info/2055492159][ankiconnect extension]]. 
 
 * Usage
-When doing questions on eMedici, simply press the Anki tag search extension button in the tool bar.
+When doing questions on eMedici, simply press the Anki tag search extension button in the tool bar (see gif in [[*Showcase][showcase]])
 
 * Directions for the future
-#+begin_src org
   Sharing and publishing
   - [X] Make releases workflow
-  - [-] Publish on chrome web store
+  - [X] Publish on chrome web store
+
+  Quality of life improvements
+  - [ ] Extension checks if the Anki server is running; if not suggest to the user to download anki-connect or start anki
 
   I want to enable further integration with emedici:
   - [ ] Add support for just from share urls (e.g. [[https://emedici.com/app/share/question/2472][https://emedici.com/app/share/question/2472]])
@@ -37,5 +43,4 @@ When doing questions on eMedici, simply press the Anki tag search extension butt
   - [ ] Elsevier
   - [ ] Amboss
   - [ ] AMSA Med Ed
-#+end_src
 
