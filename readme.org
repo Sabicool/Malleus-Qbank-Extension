@@ -34,7 +34,7 @@ When doing questions on eMedici, simply press the Anki tag search extension butt
   - [ ] Extension checks if the Anki server is running; if not suggest to the user to download anki-connect or start anki
 
   I want to enable further integration with emedici:
-  - [ ] Add support for just from share urls (e.g. [[https://emedici.com/app/share/question/2472][https://emedici.com/app/share/question/2472]])
+  - [X] Add support for just from share urls (e.g. [[https://emedici.com/app/share/question/2472][https://emedici.com/app/share/question/2472]])
   - [ ] Add support for cases
   - [ ] Add support for OSCE stations
 
